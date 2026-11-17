@@ -1,0 +1,376 @@
+.ocean {
+    background: linear-gradient(to bottom, #98d6ea,#6acdee, #00bfff, #008bba, #1c5264);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+
+}
+
+
+/*miderste sandbund*/
+.sand1 {
+    background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
+    height: 150px;
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+
+    border-top: 1px solid #bf7f5d;
+    border-radius: 50% 50% 0 0;
+
+    animation: test1 10s ease-in-out infinite alternate;
+}
+
+/*forreste sandbund*/
+
+.sand2 {
+    background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
+    height: 90px;
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+
+
+    border-top: 1px solid #bf7f5d;
+    border-radius: 50% 50% 0 0;
+
+    animation: test2 8s ease-in-out infinite alternate;  
+} 
+
+
+
+.button_back {
+    position: absolute;
+    top: -12.5%;
+    right: 80%;
+    scale: 0.5; /* Juster størrelsen efter behov */
+   
+}
+
+.fiskefakta_text {
+    position: absolute;
+    top: 5%;
+    right: 47%;
+    scale: 3; /* Juster størrelsen efter behov */
+    z-index: 100;
+    font-family: Barlow, sans-serif;
+    font-weight: bold;
+}
+
+.tang_julie2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 600px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+    
+    
+}
+
+
+
+.tang_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 200px;
+    height: 190px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+   
+    
+}
+.tang_julie3 {
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    width: 200px;
+    height: 210px;
+    scale: 1.4; /* Juster størrelsen efter behov */
+    
+    
+}
+
+.coral_pink2{
+    position: absolute;
+    bottom: -5%;
+    right: 77%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+.coral_lilleorange1 {
+    position: absolute;
+    bottom: 0;
+    right: 90%;
+    width: 100px;
+    height: 220px;
+    scale: 1.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange2 {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    width: 100px;
+    height: 280px;
+    scale: 0.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange3 {
+    position: absolute;
+    bottom: 0;
+    right: 37%;
+    width: 100px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange4 {
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+    width: 100px;
+    height: 230px;
+    scale: 1.2; /* Juster størrelsen efter behov */  
+  
+}
+.coral_red1{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 100px;
+    height: 280px;
+    scale: 1.8; /* Juster størrelsen efter behov */
+   
+}
+.coral_red2{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    width: 100px;   
+    height: 280px;
+    scale: 0.3; /* Juster størrelsen efter behov */
+}
+.coral_red3{
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+    width: 100px;
+    height: 320px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+
+.coral_red4{
+    position: absolute;
+    bottom: 0;
+    right: 85%;
+    width: 100px;
+    height: 230px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+.coral_lilla1{
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+.coral_lilla2{
+    position: absolute;
+    bottom: 0;
+    right: 75%;
+    width: 100px;
+    height: 299px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+   
+}   
+
+.coral_lilla3{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width: 100px;
+    height: 280px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+   
+}
+
+
+
+
+
+
+.turbosnegl_boble {
+    position: absolute;
+    top: 32%;
+    right: -12%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.kanariegylte_boble {
+    position: absolute;
+    top: 32%;
+    right: -1%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.sohal_kirurg_boble {
+    position: absolute;
+    top: 32%;
+    right: 10%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.pincetfisk_boble {
+    position: absolute;
+    top: 32%;
+    right: 21%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.rævefjæs_boble {
+    position: absolute;
+    top: 32%;
+    right: 32%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.nemo_boble {
+    position: absolute;
+    top: 32%;
+    right: 43%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.palet_kirurg_boble {
+    position: absolute;
+    top: 32%;
+    right: 54%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+
+
+/* Hele området med fisk og faktaboble */
+#fishfacts {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: 10;
+    
+}
+
+/* Placerer fisk og boble ved siden af hinanden */
+.fishfacts-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Området med fisken */
+.facts-fish {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Fiskens størrelse */
+.facts-fish img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Faktaboblen */
+.factsbox {
+    width: 500px;
+    height: 500px;
+
+    background-image: url("../Billeder/Bobler.svg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 85px;
+    box-sizing: border-box;
+}
+
+/* Fiskens navn */
+.factsbox h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 15px;
+    font-family: Barlow, sans-serif;
+}
+
+/* Faktateksten */
+.factsbox p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.15;
+    margin: 0;
+    font-family: Barlow, sans-serif;
+}   
+
+
+.body {
+  font-family: Barlow, sans-serif;
+}
+
+/* Brug også Barlow på knapper */
+.button, .button_back {
+  font-family: Barlow, sans-serif;
+}
+
+/* Fede overskrifter */
+.h1, .h2 {
+  font-weight: 500;
+}
+
+/* lydikon i boblerne. With og height for storrelse */
+.lydknap {
+    transform: translateX(0px);
+    border: none;
+    background: transparent;
+    padding: 0px;
+    touch-action: manipulation;
+}
+
+.lydknap img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.pauseknap {
+    transform: translateX(10px);
+    border: none;
+    background: transparent;
+    padding: 12px;
+    touch-action: manipulation;
+}
+
+.pauseknap img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.lydknapper {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
