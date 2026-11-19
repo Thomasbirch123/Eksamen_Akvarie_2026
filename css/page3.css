@@ -102,20 +102,28 @@ body.ocean {
     width: 600px;
     height: 270px;
     scale: 0.8; /* Juster størrelsen efter behov */
-    
+    z-index: 2;
     
 }
 
-
+.snegl_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 50px;
+    height: 100px;
+    scale: 2.0; /* Juster størrelsen efter behov */
+    
+}
 
 .tang_julie {
     position: absolute;
     bottom: 0;
     right: 10%;
     width: 200px;
-    height: 190px;
+    height: 180px;
     scale: 1.7; /* Juster størrelsen efter behov */
-   
+    z-index: 999; /* Sørg for, at tang er bag snegl */
     
 }
 .tang_julie3 {
@@ -125,7 +133,7 @@ body.ocean {
     width: 200px;
     height: 210px;
     scale: 1.4; /* Juster størrelsen efter behov */
-    
+    z-index: 0; /* Sørg for, at tang er bag snegl */
     
 }
 
@@ -169,7 +177,7 @@ body.ocean {
     width: 100px;
     height: 230px;
     scale: 1.2; /* Juster størrelsen efter behov */  
-  
+    z-index: 99; 
 }
 .coral_red1{
     position: absolute;
@@ -178,7 +186,7 @@ body.ocean {
     width: 100px;
     height: 280px;
     scale: 1.8; /* Juster størrelsen efter behov */
-   
+    z-index: 999; 
 }
 .coral_red2{
     position: absolute;
@@ -220,7 +228,7 @@ body.ocean {
     width: 100px;
     height: 299px;
     scale: 1.2; /* Juster størrelsen efter behov */
-   
+    z-index: 99;
 }   
 
 .coral_lilla3{
@@ -230,19 +238,15 @@ body.ocean {
     width: 100px;
     height: 280px;
     scale: 1.7; /* Juster størrelsen efter behov */
-   
+    z-index: 999; 
 }
-
-
-
-
-
 
 .turbosnegl_boble {
     position: absolute;
     top: 32%;
     right: -12%;
     scale: 0.2; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 .kanariegylte_boble {
@@ -250,6 +254,7 @@ body.ocean {
     top: 32%;
     right: -1%;
     scale: 0.2; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 .sohal_kirurg_boble {
@@ -257,6 +262,7 @@ body.ocean {
     top: 32%;
     right: 10%;
     scale: 0.2; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 .pincetfisk_boble {
@@ -264,6 +270,7 @@ body.ocean {
     top: 32%;
     right: 21%;
     scale: 0.2; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 .rævefjæs_boble {
@@ -271,6 +278,7 @@ body.ocean {
     top: 32%;
     right: 32%;
     scale: 0.2; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 .nemo_boble {
@@ -278,6 +286,7 @@ body.ocean {
     top: 32%;
     right: 43%;
     scale: 0.2; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 .palet_kirurg_boble {
@@ -285,6 +294,7 @@ body.ocean {
     top: 32%;
     right: 54%;
     scale: 0.2; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 
