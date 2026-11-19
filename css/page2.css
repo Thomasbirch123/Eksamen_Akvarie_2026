@@ -9,6 +9,7 @@
     isolation: isolate;
     overflow: visible;
 }
+
 .scene > img {
     position: absolute;
     width: 100%;
