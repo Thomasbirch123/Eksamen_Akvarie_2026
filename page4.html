@@ -1,38 +1,19 @@
 <!DOCTYPE html>
-<html lang="da">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Match fisken</title>
-
-    <!-- Din CSS-fil -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vendespil</title>
     <link rel="stylesheet" href="css/page4.css">
-
-    <!-- Skrifttypen Barlow -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- JavaScript kører, når HTML er læst færdig -->
-    <script src="js/page4.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="ocean">
 
-    <!-- Baggrundsbillede -->
-    <img
-        class="ocean_background"
-        src="Billeder/Solbestrålet blå undervandsdybde (1).png"
-        alt="Billede af havet med sollys, der skinner ned gennem vandet"
-        aria-hidden="true"
-    >
+
+    <img class="ocean_baggrund" src="Billeder/Solbestrålet blå undervandsdybde (1).png" alt="hav">
+   
+     <main class="scene">
 
     <!-- Sandbunden -->
     <div class="sand1" aria-hidden="true"></div>
@@ -46,73 +27,9 @@
         >
     </a>
 
-    <!-- Tang -->
-    <div class="tang_julie">
-        <img src="Billeder/Tang_julie.svg" alt="Billede af en tang">
-    </div>
-
-    <div class="tang_julie2">
-        <img src="Billeder/Tang_julie.svg" alt="Billede af en tang">
-    </div>
-
-    <div class="tang_julie3">
-        <img src="Billeder/Tang_julie.svg" alt="Billede af en tang">
-    </div>
-
-    <!-- Orange koraller -->
-    <div class="coral_lilleorange1">
-        <img src="Billeder/coral_lilleorange.svg" alt="Billede af et lille orange koralle">
-    </div>
-
-    <div class="coral_lilleorange2">
-        <img src="Billeder/coral_lilleorange.svg" alt="Billede af et lille orange koralle">
-    </div>
-
-    <div class="coral_lilleorange3">
-        <img src="Billeder/coral_lilleorange.svg" alt="Billede af et lille orange koralle">
-    </div>
-
-    <div class="coral_lilleorange4">
-        <img src="Billeder/coral_lilleorange.svg" alt="Billede af et lille orange koralle">
-    </div>
-
-    <!-- Røde koraller -->
-    <div class="coral_red1">
-        <img src="Billeder/coral_red.svg" alt="Billede af et rød koralle">
-    </div>
-
-    <div class="coral_red2">
-        <img src="Billeder/coral_red.svg" alt="Billede af et rød koralle">
-    </div>
-
-    <div class="coral_red3">
-        <img src="Billeder/coral_red.svg" alt="Billede af et rød koralle">
-    </div>
-
-    <div class="coral_red4">
-        <img src="Billeder/coral_red.svg" alt="Billede af et rød koralle">
-    </div>
-
-    <!-- Lilla koraller -->
-    <div class="coral_lilla1">
-        <img src="Billeder/coral_lilla.svg" alt="Billede af et lilla koralle">
-    </div>
-
-    <div class="coral_lilla2">
-        <img src="Billeder/coral_lilla.svg" alt="Billede af et lilla koralle">
-    </div>
-
-    <div class="coral_lilla3">
-        <img src="Billeder/coral_lilla.svg" alt="Billede af et lilla koralle">
-    </div>
-
-    <!-- Pink koral -->
-    <div class="coral_pink2">
-        <img src="Billeder/coral_pink.svg" alt="Billede af et pink koralle">
-    </div>
 
     <!-- Selve vendespillet -->
-    <main class="vendespil">
+    <div class="vendespil">
 
        <h1 class="overskrift" aria-label="Match fisken">
             Match fisken
@@ -122,9 +39,6 @@
             Find to ens fisk!
         </p>
 
-        <div id="spilleplade"></div>
-
-
         <div id="spilleplade">
 
             <!-- Kort 1: Nemo -->
@@ -132,7 +46,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/nemo_boble.svg" alt="Nemo">
@@ -145,7 +59,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/pincet_boble.svg" alt="Pincetfisk">
@@ -158,7 +72,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/paletkirurg_boble.svg" alt="Paletkirurg">
@@ -171,7 +85,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/rævefjæs_boble.svg" alt="Rævefjæs">
@@ -184,7 +98,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/paletkirurg_boble.svg" alt="Paletkirurg">
@@ -197,7 +111,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/nemo_boble.svg" alt="Nemo">
@@ -210,7 +124,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/rævefjæs_boble.svg" alt="Rævefjæs">
@@ -223,7 +137,7 @@
                     aria-label="Vend kort">
                 <span class="kort-indhold">
                     <span class="bagside" aria-hidden="true">
-                        <img src="Billeder/Spørgsmåltegn_ boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
+                        <img src="Billeder/hidden_boble.svg" alt="Spørgsmålstegn på en boble, der viser bagsiden af kortet">
                     </span>
                     <span class="forside" aria-hidden="true">
                         <img src="Billeder/pincet_boble.svg" alt="Pincetfisk">
@@ -241,7 +155,55 @@
         </button>
 
 
-    </main>
+    </div>
+
+      <div class="tang_julie">
+                <img src="Billeder/Tang_julie.svg" alt="Tang">
+            </div>
+            <div class="tang_julie2">
+                <img src="Billeder/Tang_julie.svg" alt="Tang2">
+            </div>
+            <div class="tang_julie3">
+                <img src="Billeder/Tang_julie.svg" alt="Tang3">
+            </div>
+
+            <div class="coral_lilleorange1">
+                <img src="Billeder/coral_lilleorange.svg" alt="coral_lilleorange">
+            </div>
+             <div class="coral_lilleorange2">
+                <img src="Billeder/coral_lilleorange.svg" alt="coral_lilleorange">
+            </div>
+             <div class="coral_lilleorange3">
+                <img src="Billeder/coral_lilleorange.svg" alt="coral_lilleorange">
+            </div>
+             <div class="coral_lilleorange4">
+                <img src="Billeder/coral_lilleorange.svg" alt="coral_lilleorange">
+            </div>
+            <div class="coral_red1">
+                <img src="Billeder/coral_red.svg" alt="coral_red">
+            </div>
+            <div class="coral_red2">
+                <img src="Billeder/coral_red.svg" alt="coral_red">
+            </div>
+             <div class="coral_red3">
+                <img src="Billeder/coral_red.svg" alt="coral_red">
+            </div>
+             <div class="coral_red4">
+                <img src="Billeder/coral_red.svg" alt="coral_red">
+            </div>
+             <div class="coral_lilla1">
+                <img src="Billeder/coral_lilla.svg" alt="corallilla">
+            </div>
+             <div class="coral_lilla2">
+                <img src="Billeder/coral_lilla.svg" alt="corallilla">
+            </div>
+             <div class="coral_lilla3">
+                <img src="Billeder/coral_lilla.svg" alt="corallilla">
+            </div>
+            <div class="coral_pink2">
+                <img src="Billeder/coral_pink.svg" alt="coral_pink">
+            </div>
+
     <script src="js/page4.js"></script>
     <script src="js/scale.js"></script>
 

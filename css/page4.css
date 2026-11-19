@@ -9,15 +9,6 @@
     overflow: visible;
 }
 
-.scene > img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    object-fit: cover;
-    z-index: -1;
-}
-
 .ocean {
     background: linear-gradient(to bottom, #98d6ea,#6acdee, #00bfff, #008bba, #1c5264);
     height: 100vh;
@@ -42,18 +33,6 @@ body.ocean {
     z-index: -1;
 }
 
-/* Baggrunden skal ikke optage plads over spillet */
-.ocean_background {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-
-/*miderste sandbund*/
 .sand1 {
     background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
     height: 150px;
@@ -68,8 +47,6 @@ body.ocean {
 
     animation: test1 10s ease-in-out infinite alternate;
 }
-
-/*forreste sandbund*/
 
 .sand2 {
     background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
@@ -273,72 +250,6 @@ button {
 }
 
 
-/* Centrér spillet på siden */
-main {
-  width: min(94%, 1200px);
-  margin: auto;
-  padding: 30px 0;
-  text-align: center;
-}
-
-#besked {
-  margin: 8px 0 24px;
-
-  /* Reservér plads til beskeden */
-  min-height: 1.5em;
-
-  font-size: clamp(20px, 2.5vw, 36px);
-  font-weight: 500;
-}
-
-.vendespil {
-  position: relative;
-
-  /* Spillet ligger foran sand og koraller */
-  z-index: 10;
-
-  width: min(82%, 1100px);
-  margin: auto;
-  padding: 30px 0 40px;
-
-  text-align: center;
-}
-
-.vendespil h1 {
-  margin: 0;
-
-  font-size: clamp(36px, 5vw, 72px);
-  font-weight: 500;
-  line-height: 1.1;
-}
-
-#besked {
-  margin: 12px 0 24px;
-
-  /* Reservér plads, når beskeden ændres */
-  min-height: 1.5em;
-
-  font-size: clamp(20px, 2.3vw, 32px);
-  font-weight: 600;
-}
-
-
-/* Fire bobler i hver række */
-#spilleplade {
-  display: grid;
-
-  /* Fire lige brede kolonner */
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-
-  /* Afstand mellem boblerne */
-  gap: clamp(12px, 2vw, 26px);
-
-  width: 100%;
-    max-width: 1100px;
-}
-
-
-
 /* Kortet er en knap, så det kan vendes med mus eller finger */
 .kort {
   position: relative;
@@ -447,13 +358,20 @@ main {
   cursor: pointer;
 }
 
-
-/* Placér spillets elementer under hinanden */
 .vendespil {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
+    position: relative;
+    z-index: 10;
+
+    width: min(82%, 1100px);
+    margin: auto;
+    padding: 30px 0 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    text-align: center;
 }
 
 /* Overskrift og besked skal ikke placeres absolut */
@@ -467,13 +385,9 @@ main {
 
 /* Overskrift */
 .vendespil h1 {
-  position: static;
-  transform: none;
-  scale: 1;
-  margin: 0;
-  font-size: clamp(36px, 5vw, 72px);
-  line-height: 1.2;
-  font-weight: 700;
+    font-size: clamp(36px, 5vw, 72px);
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 /* Beskeden står separat under overskriften */
@@ -486,11 +400,6 @@ main {
   transform: none;
   position: static;
   font-weight: 700;
-}
-
-/* Luft mellem beskeden og boblerne */
-#spilleplade {
-  margin: 8px auto;
 }
 
 #spilleplade {
