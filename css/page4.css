@@ -28,10 +28,11 @@
 .sand1 {
     background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
     height: 150px;
-    width: 110%;
+    width: 1920px;
     position: absolute;
     bottom: 0;
-    left: -5%;
+    left: -17%;
+  
 
     border-top: 1px solid #bf7f5d;
     border-radius: 50% 50% 0 0;
@@ -44,18 +45,17 @@
 .sand2 {
     background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
     height: 90px;
-    width: 110%;
+    width: 1920px;
     position: absolute;
     bottom: 0;
-    left: -5%;
-
+    left: -17%;
+    
 
     border-top: 1px solid #bf7f5d;
     border-radius: 50% 50% 0 0;
 
     animation: test2 8s ease-in-out infinite alternate;  
-} 
-
+}
 
 
 .button_back {
