@@ -122,16 +122,22 @@ body.ocean {
 } 
 
 
-
 .still_fish {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    scale: 0.7; /* Juster størrelsen efter behov */
-    transform: scaleX(-1); /* Vend fisken om, så den kigger mod venstre */
+    top: 40%;
+    left: 45%;
+    scale: 0.7;
+    transform: translate(-50%, -50%) scaleX(-1);
     z-index: 999;
 }
 
+.velkommen {
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    scale: 1;
+    z-index: 999;
+}
 
 
 .tang_julie2 {
