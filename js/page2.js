@@ -27,3 +27,5 @@ window.addEventListener("pagehide", function () {
         nemoLyd.currentTime = 0;
     }
 });
+
+

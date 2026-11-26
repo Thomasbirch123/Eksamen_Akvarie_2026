@@ -81,7 +81,7 @@ const fisk = [
                         class="lydknap"
                         type="button"
                         onclick="playFishAudio(${valgtFisk.id})">
-                        <img src="Billeder/Lydknap.svg" alt="lydknap">
+                        <img src="Billeder/lyd_unmute.svg" alt="lydunmute">
                     </button> 
                  
                     <!-- pauseknap -->
@@ -89,7 +89,7 @@ const fisk = [
                         class="pauseknap"
                         type="button"
                         onclick="pauseFishAudio()">
-                        <img src="Billeder/pauseknap.svg" alt="pauseknap">
+                        <img src="Billeder/lyd_mute.svg" alt="lydmute">
                     </button>
                 </div>
             </div>
