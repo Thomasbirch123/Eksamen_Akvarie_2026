@@ -68,27 +68,42 @@ body.ocean {
 }
 
 
-.still_fish2 {
+.aktivitet {
     position: absolute;
-    top: -2%;
-    left: 68%;
-    scale: 0.8; /* Juster størrelsen efter behov */
-    transform: scaleX(1); /* Vend fisken om, så den kigger mod venstre */
+    top: 10%;
+    left: 19%;
+    scale: 1;
+    z-index: 999;
 }
 
 .button_back {
     position: absolute;
-    top: 65%;
-    right: 50%;
+    top: 80%;
+    right: 55%;
+    scale: 1; /* Juster størrelsen efter behov */
+    z-index: 9999;
+}
+
+.button_mute {
+    position: absolute;
+    top: 80.5%;
+    right: 35%;
+    scale: 1; /* Juster størrelsen efter behov */
+    z-index: 9999;
+}
+
+.button_unmute {
+    position: absolute;
+    top: 81%;
+    right: 45%;
     scale: 1; /* Juster størrelsen efter behov */
     z-index: 9999;
 }
 
 
-
 .Mal_en_fisk {
     position: absolute;
-    top: 5%;
+    top: 10%;
     right: -18.5%;
     scale: 0.45; /* Juster størrelsen efter behov */
     z-index: 100;
@@ -96,7 +111,7 @@ body.ocean {
 
 .fang_fisken {
     position: absolute;
-    top: 5%;
+    top: 10%;
     right: 6%;
     scale: 0.45; /* Juster størrelsen efter behov */
     z-index: 100;
@@ -105,7 +120,7 @@ body.ocean {
 
 .match_fisken {
     position: absolute;
-    top: 5%;
+    top: 10%;
     right: 32%;
     scale: 0.45; /* Juster størrelsen efter behov */
     z-index: 100;
@@ -113,7 +128,7 @@ body.ocean {
 
 .fiskefakta_boble {
     position: absolute;
-    top: 5%;
+    top: 10%;
     right: 57%;
     scale: 0.45; /* Juster størrelsen efter behov */
     z-index: 100;
@@ -270,9 +285,10 @@ body.ocean {
     right: 10%;
     width: 100px;
     height: 280px;
-    scale: 1.8; /* Juster størrelsen efter behov */
+    scale: 1.6; /* Juster størrelsen efter behov */
     z-index: 999; 
-}
+    opacity: 100%;
+}   
 .coral_red2{
     position: absolute;
     bottom: 0;
@@ -322,7 +338,7 @@ body.ocean {
     right: 100%;
     width: 100px;
     height: 280px;
-    scale: 1.7; /* Juster størrelsen efter behov */
+    scale: 1.8; /* Juster størrelsen efter behov */
     z-index: 999; 
 }
 

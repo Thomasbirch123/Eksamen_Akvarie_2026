@@ -66,10 +66,10 @@ body.ocean {
 
 .button_back {
     position: absolute;
-    top: -12.5%;
-    right: 80%;
-    scale: 0.5; /* Juster størrelsen efter behov */
-   
+    top: 80%;
+    right: 45%;
+    scale: 1; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
 
 .Match_fisken_text {
