@@ -78,11 +78,13 @@ body.ocean {
 
 .button_back {
     position: absolute;
-    top: -12.5%;
-    right: 80%;
-    scale: 0.5; /* Juster størrelsen efter behov */
-   
+    top: 65%;
+    right: 50%;
+    scale: 1; /* Juster størrelsen efter behov */
+    z-index: 9999;
 }
+
+
 
 .Mal_en_fisk {
     position: absolute;
