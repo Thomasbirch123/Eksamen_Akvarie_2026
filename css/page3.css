@@ -70,7 +70,7 @@ body.ocean {
 
 .button_back {
     position: absolute;
-    top: 80%;
+    top: 82%;
     right: 45%;
     scale: 1; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -332,10 +332,10 @@ body.ocean {
 
 /* Faktaboblen */
 .factsbox {
-    width: 600px;
-    height: 600px;
+    width: 650px;
+    height: 650px;
 
-    background-image: url("../Billeder/bubble_plain.svg");
+    background-image: url("../Billeder/blue_box.svg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -345,28 +345,32 @@ body.ocean {
     align-items: center;
     justify-content: center;
 
-    text-align: center;
-    padding: 85px;
+    text-align: left;
+    padding: 30px;
     box-sizing: border-box;
 }
 
 /* Fiskens navn */
 .factsbox h2 {
+    width: 100%;
     font-size: 32px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-bottom: 15px;
     font-family: Barlow, sans-serif;
+    font-weight: bold;
+    text-align: left;
     
 }
 
 /* Faktateksten */
 .factsbox p {
     font-size: 24px;
-    color: black;
+    color: rgb(255, 255, 255);
     line-height: 1.15;
     margin: 0;
     font-family: Barlow, sans-serif;
     font-weight: 500;
+    text-align: left;
 }   
 
 
@@ -389,8 +393,10 @@ body.ocean {
     transform: translateX(0px);
     border: none;
     background: transparent;
-    padding: 0px;
+    padding: 10px;
     touch-action: manipulation;
+    transform: translate(-215px, 0px);
+  
 }
 
 .lydknap img {
@@ -403,14 +409,16 @@ body.ocean {
     transform: translateX(10px);
     border: none;
     background: transparent;
-    padding: 12px;
+    padding: 10px;
     touch-action: manipulation;
+    transform: translate(-230px, 0px);
 }
 
 .pauseknap img {
     display: block;
     width: 80px;
     height: 80px;
+    scale: 1.05;
     
 }
 
