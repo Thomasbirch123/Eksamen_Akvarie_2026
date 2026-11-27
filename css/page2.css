@@ -70,7 +70,7 @@ body.ocean {
 
 .aktivitet {
     position: absolute;
-    top: 10%;
+    top: 2%;
     left: 19%;
     scale: 1;
     z-index: 999;
@@ -104,7 +104,7 @@ body.ocean {
 .Mal_en_fisk {
     position: absolute;
     top: 10%;
-    right: -18.5%;
+    right: -18%;
     scale: 0.45; /* Juster størrelsen efter behov */
     z-index: 100;
 }
@@ -112,7 +112,7 @@ body.ocean {
 .fang_fisken {
     position: absolute;
     top: 10%;
-    right: 6%;
+    right: 7%;
     scale: 0.45; /* Juster størrelsen efter behov */
     z-index: 100;
 }
