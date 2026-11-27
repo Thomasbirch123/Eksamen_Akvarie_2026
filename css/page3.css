@@ -234,7 +234,7 @@ body.ocean {
 
 .turbosnegl_boble {
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: -12%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -242,7 +242,7 @@ body.ocean {
 
 .kanariegylte_boble {
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: -1%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -250,7 +250,7 @@ body.ocean {
 
 .sohal_kirurg_boble {
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: 10%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -258,7 +258,7 @@ body.ocean {
 
 .pincetfisk_boble {
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: 21%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -266,7 +266,7 @@ body.ocean {
 
 .rævefjæs_boble {
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: 32%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -274,7 +274,7 @@ body.ocean {
 
 .nemo_boble {
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: 43%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -282,12 +282,19 @@ body.ocean {
 
 .palet_kirurg_boble {
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: 54%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
 }
 
+.fiskefakta_svg {
+    position: absolute;
+    top: 5%;
+    right: 21%;
+    scale: 1;
+    z-index: 999;
+}
 
 
 /* Hele området med fisk og faktaboble */
@@ -325,10 +332,10 @@ body.ocean {
 
 /* Faktaboblen */
 .factsbox {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 
-    background-image: url("../Billeder/Bobler.svg");
+    background-image: url("../Billeder/bubble_plain.svg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -349,15 +356,17 @@ body.ocean {
     color: black;
     margin-bottom: 15px;
     font-family: Barlow, sans-serif;
+    
 }
 
 /* Faktateksten */
 .factsbox p {
-    font-size: 18px;
+    font-size: 24px;
     color: black;
     line-height: 1.15;
     margin: 0;
     font-family: Barlow, sans-serif;
+    font-weight: 500;
 }   
 
 
@@ -386,8 +395,8 @@ body.ocean {
 
 .lydknap img {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 .pauseknap {
@@ -400,8 +409,8 @@ body.ocean {
 
 .pauseknap img {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     
 }
 
