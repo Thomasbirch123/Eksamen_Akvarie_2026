@@ -234,7 +234,7 @@ body.ocean {
 
 .turbosnegl_boble {
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: -12%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -242,7 +242,7 @@ body.ocean {
 
 .kanariegylte_boble {
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: -1%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -250,7 +250,7 @@ body.ocean {
 
 .sohal_kirurg_boble {
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: 10%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -258,7 +258,7 @@ body.ocean {
 
 .pincetfisk_boble {
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: 21%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -266,7 +266,7 @@ body.ocean {
 
 .rævefjæs_boble {
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: 32%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -274,7 +274,7 @@ body.ocean {
 
 .nemo_boble {
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: 43%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
@@ -282,7 +282,7 @@ body.ocean {
 
 .palet_kirurg_boble {
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: 54%;
     scale: 0.2; /* Juster størrelsen efter behov */
     z-index: 9999;
